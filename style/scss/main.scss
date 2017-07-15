@@ -4,6 +4,7 @@
  */
  $yellow: rgb(229, 177, 58);
  $white: #fff;
+ $black-transparent: rgba(0,0,0,1);
  $grey: #ccc;
 
 
@@ -47,8 +48,8 @@ header {
 
 h1, h2 {
   font-family: Franklin Gothic;
-  color: $yellow;
-  @include stroke(3px, $white);
+  color: $black-transparent;
+  @include stroke(1px, $yellow);
   letter-spacing: 2rem;
   text-align: center;
   margin: 0;

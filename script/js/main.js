@@ -5,7 +5,7 @@ function getJSON(url) {
     resp = '';
     xmlHttp = new XMLHttpRequest();
     if (xmlHttp !== null) {
-        xmlHttp.open("GET", url, false);
+        xmlHttp.open("GET", url, true);
         xmlHttp.send(null);
         resp = xmlHttp.responseText;
     }

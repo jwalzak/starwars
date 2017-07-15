@@ -15,8 +15,8 @@ header {
 
 h1, h2 {
   font-family: Franklin Gothic;
-  color: #e5b13a;
-  text-shadow: 0 0 0 transparent, -1px -1px 0 #fff, 0px -1px 0 #fff, 1px -1px 0 #fff, -1px 0px 0 #fff, 0px 0px 0 #fff, 1px 0px 0 #fff, -1px 1px 0 #fff, 0px 1px 0 #fff, 1px 1px 0 #fff, -2px -2px 0 #fff, -1px -2px 0 #fff, 0px -2px 0 #fff, 1px -2px 0 #fff, 2px -2px 0 #fff, -2px -1px 0 #fff, -1px -1px 0 #fff, 0px -1px 0 #fff, 1px -1px 0 #fff, 2px -1px 0 #fff, -2px 0px 0 #fff, -1px 0px 0 #fff, 0px 0px 0 #fff, 1px 0px 0 #fff, 2px 0px 0 #fff, -2px 1px 0 #fff, -1px 1px 0 #fff, 0px 1px 0 #fff, 1px 1px 0 #fff, 2px 1px 0 #fff, -2px 2px 0 #fff, -1px 2px 0 #fff, 0px 2px 0 #fff, 1px 2px 0 #fff, 2px 2px 0 #fff, -3px -3px 0 #fff, -2px -3px 0 #fff, -1px -3px 0 #fff, 0px -3px 0 #fff, 1px -3px 0 #fff, 2px -3px 0 #fff, 3px -3px 0 #fff, -3px -2px 0 #fff, -2px -2px 0 #fff, -1px -2px 0 #fff, 0px -2px 0 #fff, 1px -2px 0 #fff, 2px -2px 0 #fff, 3px -2px 0 #fff, -3px -1px 0 #fff, -2px -1px 0 #fff, -1px -1px 0 #fff, 0px -1px 0 #fff, 1px -1px 0 #fff, 2px -1px 0 #fff, 3px -1px 0 #fff, -3px 0px 0 #fff, -2px 0px 0 #fff, -1px 0px 0 #fff, 0px 0px 0 #fff, 1px 0px 0 #fff, 2px 0px 0 #fff, 3px 0px 0 #fff, -3px 1px 0 #fff, -2px 1px 0 #fff, -1px 1px 0 #fff, 0px 1px 0 #fff, 1px 1px 0 #fff, 2px 1px 0 #fff, 3px 1px 0 #fff, -3px 2px 0 #fff, -2px 2px 0 #fff, -1px 2px 0 #fff, 0px 2px 0 #fff, 1px 2px 0 #fff, 2px 2px 0 #fff, 3px 2px 0 #fff, -3px 3px 0 #fff, -2px 3px 0 #fff, -1px 3px 0 #fff, 0px 3px 0 #fff, 1px 3px 0 #fff, 2px 3px 0 #fff, 3px 3px 0 #fff;
+  color: black;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 #e5b13a, 0px -1px 0 #e5b13a, 1px -1px 0 #e5b13a, -1px 0px 0 #e5b13a, 0px 0px 0 #e5b13a, 1px 0px 0 #e5b13a, -1px 1px 0 #e5b13a, 0px 1px 0 #e5b13a, 1px 1px 0 #e5b13a;
   letter-spacing: 2rem;
   text-align: center;
   margin: 0;
