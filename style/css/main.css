@@ -1,0 +1,21 @@
+/**
+ *  Link attribute to image owner
+ *  https://thoroughlyreviewed.com/
+ */
+/** Mixins */
+header {
+  background: url("../../images/galaxy-sw.jpg");
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-family: Franklin Gothic;
+  color: #fff;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 #e5b13a, 0px -1px 0 #e5b13a, 1px -1px 0 #e5b13a, -1px 0px 0 #e5b13a, 0px 0px 0 #e5b13a, 1px 0px 0 #e5b13a, -1px 1px 0 #e5b13a, 0px 1px 0 #e5b13a, 1px 1px 0 #e5b13a, -2px -2px 0 #e5b13a, -1px -2px 0 #e5b13a, 0px -2px 0 #e5b13a, 1px -2px 0 #e5b13a, 2px -2px 0 #e5b13a, -2px -1px 0 #e5b13a, -1px -1px 0 #e5b13a, 0px -1px 0 #e5b13a, 1px -1px 0 #e5b13a, 2px -1px 0 #e5b13a, -2px 0px 0 #e5b13a, -1px 0px 0 #e5b13a, 0px 0px 0 #e5b13a, 1px 0px 0 #e5b13a, 2px 0px 0 #e5b13a, -2px 1px 0 #e5b13a, -1px 1px 0 #e5b13a, 0px 1px 0 #e5b13a, 1px 1px 0 #e5b13a, 2px 1px 0 #e5b13a, -2px 2px 0 #e5b13a, -1px 2px 0 #e5b13a, 0px 2px 0 #e5b13a, 1px 2px 0 #e5b13a, 2px 2px 0 #e5b13a, -3px -3px 0 #e5b13a, -2px -3px 0 #e5b13a, -1px -3px 0 #e5b13a, 0px -3px 0 #e5b13a, 1px -3px 0 #e5b13a, 2px -3px 0 #e5b13a, 3px -3px 0 #e5b13a, -3px -2px 0 #e5b13a, -2px -2px 0 #e5b13a, -1px -2px 0 #e5b13a, 0px -2px 0 #e5b13a, 1px -2px 0 #e5b13a, 2px -2px 0 #e5b13a, 3px -2px 0 #e5b13a, -3px -1px 0 #e5b13a, -2px -1px 0 #e5b13a, -1px -1px 0 #e5b13a, 0px -1px 0 #e5b13a, 1px -1px 0 #e5b13a, 2px -1px 0 #e5b13a, 3px -1px 0 #e5b13a, -3px 0px 0 #e5b13a, -2px 0px 0 #e5b13a, -1px 0px 0 #e5b13a, 0px 0px 0 #e5b13a, 1px 0px 0 #e5b13a, 2px 0px 0 #e5b13a, 3px 0px 0 #e5b13a, -3px 1px 0 #e5b13a, -2px 1px 0 #e5b13a, -1px 1px 0 #e5b13a, 0px 1px 0 #e5b13a, 1px 1px 0 #e5b13a, 2px 1px 0 #e5b13a, 3px 1px 0 #e5b13a, -3px 2px 0 #e5b13a, -2px 2px 0 #e5b13a, -1px 2px 0 #e5b13a, 0px 2px 0 #e5b13a, 1px 2px 0 #e5b13a, 2px 2px 0 #e5b13a, 3px 2px 0 #e5b13a, -3px 3px 0 #e5b13a, -2px 3px 0 #e5b13a, -1px 3px 0 #e5b13a, 0px 3px 0 #e5b13a, 1px 3px 0 #e5b13a, 2px 3px 0 #e5b13a, 3px 3px 0 #e5b13a;
+  font-size: 10rem;
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
