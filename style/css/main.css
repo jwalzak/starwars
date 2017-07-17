@@ -39,4 +39,12 @@ footer, a {
   color: #ccc;
   text-align: center; }
 
+.ouput {
+  size: 1rem;
+  color: black;
+  font-family: Helvetica; }
+
+.name {
+  display: inline-block; }
+
 /*# sourceMappingURL=main.css.map */
