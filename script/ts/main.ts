@@ -23,15 +23,27 @@ let jsonData: object;
 input.addEventListener('click', function(e){
   try {
     val = (<HTMLInputElement>document.querySelector('.input')).value;
-    console.log(data);
     e.preventDefault();
-    return data;
+    data = getJSON(`http://swapi.co/api/people/?search=${val}`);
+    data = JSON.parse(data);
+    console.log(data);
+    display(data);
   }
   catch(err) {
     console.log(err);
   }
 });
 
-data = getJSON(`http://swapi.co/api/people/2/`);
-data = JSON.parse(data);
 console.log(data);
+
+function display(res) {
+  let info: Element = document.createElement('p');
+  for(let i = 0; i<res.results.length; i++) {
+    let title: Element = document.createElement('h4');
+    title.setAttribute('class', 'name');
+    let titleText: any= document.createTextNode(res.results[i].name);
+    title.appendChild(titleText);
+    let output: Element = document.querySelector('div#output');
+    output.appendChild(title);
+  }
+}

@@ -77,3 +77,13 @@ footer, a {
     color: $grey;
     text-align: center;
   }
+
+.ouput {
+  size: 1rem;
+  color: #$black-transparent;
+  font-family: Helvetica;
+}
+
+.name {
+  display: inline-block;
+}

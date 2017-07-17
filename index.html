@@ -7,15 +7,24 @@
   <link rel="stylesheet" href="style/css/main.css">
 </head>
 <body>
-<header>
-  <h1>Starwars</h1>
-  <h2>Information gather</h2>
-</header>
-  <form class="form-inline" action="">
-    <input type="text" class="input form-control" placeholder="Search">
-    <input type="submit" class="submit btn btn-primary" value="Let the force">
-  </form>
-<footer><a href="https://thoroughlyreviewed.com/">Image Credit KS20 Gallery</a></footer>
+  <header>
+    <h1>Starwars</h1>
+    <h2>Information gather</h2>
+  </header>
+  <div class="row col-md-4">
+    <div class="form">
+      <form class="form-inline" action="">
+        <input type="text" class="input form-control" placeholder="Search">
+        <input type="submit" class="submit btn btn-primary" value="Let the force">
+      </form>
+    </div>
+    <div id="output" class="ouput col-md-5"></div>
+  </div>
+  <footer class="row">
+    <div class="col-md-12">
+      <a href="https://thoroughlyreviewed.com/">Image Credit KS20 Gallery</a>
+    </div>
+  </footer>
 </body>
 <script src="script/js/main.js"></script>
 </html>

@@ -18,14 +18,25 @@ var jsonData;
 input.addEventListener('click', function (e) {
     try {
         val = document.querySelector('.input').value;
-        console.log(data);
         e.preventDefault();
-        return data;
+        data = getJSON("http://swapi.co/api/people/?search=" + val);
+        data = JSON.parse(data);
+        console.log(data);
+        display(data);
     }
     catch (err) {
         console.log(err);
     }
 });
-data = getJSON("http://swapi.co/api/people/2/");
-data = JSON.parse(data);
 console.log(data);
+function display(res) {
+    var info = document.createElement('p');
+    for (var i = 0; i < res.results.length; i++) {
+        var title = document.createElement('h4');
+        title.setAttribute('class', 'name');
+        var titleText = document.createTextNode(res.results[i].name);
+        title.appendChild(titleText);
+        var output = document.querySelector('div#output');
+        output.appendChild(title);
+    }
+}
