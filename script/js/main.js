@@ -1,4 +1,4 @@
-var base = 'http://swapi.co/api/';
+var base = 'https://swapi.co/api/';
 function getJSON(url) {
     var resp;
     var xmlHttp;
@@ -14,10 +14,18 @@ function getJSON(url) {
 var input = document.querySelector('.submit');
 var val;
 var data;
+var jsonData;
 input.addEventListener('click', function (e) {
-    e.preventDefault();
-    val = document.querySelector('.input').value;
-    data = getJSON(base + 'people/' + val + '/');
-    console.log(data);
+    try {
+        val = document.querySelector('.input').value;
+        console.log(data);
+        e.preventDefault();
+        return data;
+    }
+    catch (err) {
+        console.log(err);
+    }
 });
+data = getJSON("http://swapi.co/api/people/2/");
+data = JSON.parse(data);
 console.log(data);

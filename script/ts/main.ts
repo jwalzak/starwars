@@ -1,4 +1,4 @@
-let base: string = 'http://swapi.co/api/';
+let base: string = 'https://swapi.co/api/';
 
 function getJSON(url) {
   let resp: any;
@@ -19,11 +19,19 @@ function getJSON(url) {
 let input: Element = document.querySelector('.submit');
 let val: string;
 let data: string;
+let jsonData: object;
 input.addEventListener('click', function(e){
-  e.preventDefault();
-  val = (<HTMLInputElement>document.querySelector('.input')).value;
-  data = getJSON(base + 'people/' + val + '/');
-  console.log(data);
+  try {
+    val = (<HTMLInputElement>document.querySelector('.input')).value;
+    console.log(data);
+    e.preventDefault();
+    return data;
+  }
+  catch(err) {
+    console.log(err);
+  }
 });
 
+data = getJSON(`http://swapi.co/api/people/2/`);
+data = JSON.parse(data);
 console.log(data);
