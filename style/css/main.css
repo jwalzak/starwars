@@ -1,9 +1,13 @@
+/* Coolors Exported Palette - coolors.co/454545-6d5959-9dcbba-abebd2-04f06a */
+/* HSL */
+/* RGB */
 /**
  *  Link attribute to image owner
  *  https://thoroughlyreviewed.com/
  */
 /** Mixins */
 body {
+  background: #6d5959;
   padding: 0;
   margin: 0; }
 
@@ -15,8 +19,8 @@ header {
 
 h1, h2 {
   font-family: Franklin Gothic;
-  color: black;
-  text-shadow: 0 0 0 transparent, -1px -1px 0 #e5b13a, 0px -1px 0 #e5b13a, 1px -1px 0 #e5b13a, -1px 0px 0 #e5b13a, 0px 0px 0 #e5b13a, 1px 0px 0 #e5b13a, -1px 1px 0 #e5b13a, 0px 1px 0 #e5b13a, 1px 1px 0 #e5b13a;
+  color: #454545;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 #abebd2, 0px -1px 0 #abebd2, 1px -1px 0 #abebd2, -1px 0px 0 #abebd2, 0px 0px 0 #abebd2, 1px 0px 0 #abebd2, -1px 1px 0 #abebd2, 0px 1px 0 #abebd2, 1px 1px 0 #abebd2;
   letter-spacing: 2rem;
   text-align: center;
   margin: 0;
@@ -29,7 +33,9 @@ h2 {
   font-size: 10rem; }
 
 .input, .submit {
-  margin-top: 20px; }
+  margin-top: 20px;
+  background-color: #04f06a;
+  color: #6d5959; }
 
 footer {
   border-top: 1px solid #ccc; }
@@ -41,7 +47,7 @@ footer, a {
 
 .ouput {
   size: 1rem;
-  color: black;
+  color: #454545;
   font-family: Helvetica; }
 
 .name {

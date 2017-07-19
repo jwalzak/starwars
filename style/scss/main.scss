@@ -1,3 +1,5 @@
+@import '_palette';
+
 /**
  *  Link attribute to image owner
  *  https://thoroughlyreviewed.com/
@@ -35,6 +37,7 @@
 }
 
 body {
+  background: $color2;
   padding: 0;
   margin: 0;
 }
@@ -48,8 +51,8 @@ header {
 
 h1, h2 {
   font-family: Franklin Gothic;
-  color: $black-transparent;
-  @include stroke(1px, $yellow);
+  color: $color1;
+  @include stroke(1px, $color4);
   letter-spacing: 2rem;
   text-align: center;
   margin: 0;
@@ -66,6 +69,8 @@ h2 {
 
 .input, .submit {
   margin-top: 20px;
+  background-color: $color5;
+  color: $color2;
 }
 
 footer {
@@ -80,7 +85,7 @@ footer, a {
 
 .ouput {
   size: 1rem;
-  color: $black-transparent;
+  color: $color1;
   font-family: Helvetica;
 }
 
