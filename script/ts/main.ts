@@ -51,12 +51,13 @@ function display(res: any) {
       let gender: string = res.results[i].gender;
       let skin: string = res.results[i].skin_color;
       let mass: string = res.results[i].mass;
-      let information: string = `Gender: ${gender} <br /> Skin Colour: ${skin} <br /> Eye Colour: ${eye} <br />Mass: ${mass} <br /> Birth Date: ${birth} <br />`;
-      rightDiv.innerHTML += information;
-      title.setAttribute('class', 'name');
+      let information: string = `<br />Gender: ${gender} <br /> Skin Colour: ${skin} <br /> Eye Colour: ${eye} <br />Mass: ${mass} <br /> Birth Date: ${birth} <br />`;
+      // rightDiv.innerHTML += information;
+      // title.setAttribute('class', 'name');
       let titleText: any = document.createTextNode(res.results[i].name);
       title.appendChild(titleText);
       output.appendChild(title);
+      title.innerHTML += information;
     }
   } catch (err) {
     console.log(err);

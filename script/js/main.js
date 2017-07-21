@@ -44,17 +44,16 @@ function display(res) {
             var gender = res.results[i].gender;
             var skin = res.results[i].skin_color;
             var mass = res.results[i].mass;
-            var information = "Gender: " + gender + " <br /> Skin Colour: " + skin + " <br /> Eye Colour: " + eye + " <br />Mass: " + mass + " <br /> Birth Date: " + birth + " <br />";
-            rightDiv.innerHTML += information;
-            title.setAttribute('class', 'name');
+            var information = "<br />Gender: " + gender + " <br /> Skin Colour: " + skin + " <br /> Eye Colour: " + eye + " <br />Mass: " + mass + " <br /> Birth Date: " + birth + " <br />";
+            // rightDiv.innerHTML += information;
+            // title.setAttribute('class', 'name');
             var titleText = document.createTextNode(res.results[i].name);
             title.appendChild(titleText);
             output.appendChild(title);
+            title.innerHTML += information;
         }
     }
     catch (err) {
         console.log(err);
     }
 }
-
-let mult = 3 * 339393; 
